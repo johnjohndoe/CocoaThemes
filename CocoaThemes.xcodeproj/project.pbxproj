@@ -13,6 +13,9 @@
 		554E81C015C6A43100F1AE62 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 554E81BE15C6A43100F1AE62 /* Credits.rtf */; };
 		554E81C315C6A43200F1AE62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E81C215C6A43200F1AE62 /* AppDelegate.m */; };
 		554E81C615C6A43200F1AE62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554E81C415C6A43200F1AE62 /* MainMenu.xib */; };
+		554E81CE15C6A67F00F1AE62 /* CTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E81CD15C6A67E00F1AE62 /* CTTextField.m */; };
+		554E81D115C6A96800F1AE62 /* CTDarkTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E81D015C6A96800F1AE62 /* CTDarkTextField.m */; };
+		554E81D415C6AA2700F1AE62 /* CTBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E81D315C6AA2700F1AE62 /* CTBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		554E81C115C6A43200F1AE62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		554E81C215C6A43200F1AE62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		554E81C515C6A43200F1AE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		554E81CC15C6A67E00F1AE62 /* CTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTextField.h; sourceTree = "<group>"; };
+		554E81CD15C6A67E00F1AE62 /* CTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTextField.m; sourceTree = "<group>"; };
+		554E81CF15C6A96800F1AE62 /* CTDarkTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDarkTextField.h; sourceTree = "<group>"; };
+		554E81D015C6A96800F1AE62 /* CTDarkTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDarkTextField.m; sourceTree = "<group>"; };
+		554E81D215C6AA2600F1AE62 /* CTBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBackgroundView.h; sourceTree = "<group>"; };
+		554E81D315C6AA2700F1AE62 /* CTBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 		554E81B515C6A43000F1AE62 /* CocoaThemes */ = {
 			isa = PBXGroup;
 			children = (
+				554E81CC15C6A67E00F1AE62 /* CTTextField.h */,
+				554E81CD15C6A67E00F1AE62 /* CTTextField.m */,
+				554E81CF15C6A96800F1AE62 /* CTDarkTextField.h */,
+				554E81D015C6A96800F1AE62 /* CTDarkTextField.m */,
+				554E81D215C6AA2600F1AE62 /* CTBackgroundView.h */,
+				554E81D315C6AA2700F1AE62 /* CTBackgroundView.m */,
 				554E81C115C6A43200F1AE62 /* AppDelegate.h */,
 				554E81C215C6A43200F1AE62 /* AppDelegate.m */,
 				554E81C415C6A43200F1AE62 /* MainMenu.xib */,
@@ -167,6 +182,9 @@
 			files = (
 				554E81BC15C6A43100F1AE62 /* main.m in Sources */,
 				554E81C315C6A43200F1AE62 /* AppDelegate.m in Sources */,
+				554E81CE15C6A67F00F1AE62 /* CTTextField.m in Sources */,
+				554E81D115C6A96800F1AE62 /* CTDarkTextField.m in Sources */,
+				554E81D415C6AA2700F1AE62 /* CTBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
